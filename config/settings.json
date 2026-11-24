@@ -1,0 +1,23 @@
+{
+  "module": "steam-key-checker",
+  "version": "0.1.0",
+  "runtime": {
+    "threads": 4,
+    "verbose": false,
+    "hot_reload": true
+  },
+  "modules": {
+    "checker": {
+      "enabled": true
+    },
+    "proxies": {
+      "enabled": true
+    },
+    "hits": {
+      "enabled": true
+    },
+    "cli": {
+      "enabled": true
+    }
+  }
+}
